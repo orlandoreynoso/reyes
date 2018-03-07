@@ -1,0 +1,84 @@
+body.pg_inicio
+  margin: 0px
+  padding: 0px
+  background-color: #000000
+  .e-front-page
+    background-color: none
+    #menu-inicio.menu-inicio
+      background-color: none
+    .contenedor-frontpage
+      display: flex
+      flex-direction: row
+      .or-logo-cover
+        width: 100%
+        text-align: center
+        margin: 40px auto
+      .or-frontpage
+        width: 100%
+  .mr_inicio
+    width: 100%
+    margin-top: -270px
+    height: 100%
+    @media screen and (max-width: 740px)
+      margin-top: -10px
+    img
+      width: 100%
+      height: 100%
+      margin: 0px
+      padding: 0px
+      @media screen and (min-width: 900px)
+        &:after
+          content: ''
+          display: block
+          background-color: rgba(51, 51, 51, 0.5)
+          height: 100%
+          width: 100%
+          position: absolute
+          left: 0
+          right: 0
+          bottom: 0
+          top: 0
+          z-index: 100
+          transition: 0.5s ease
+  .mrlogo
+    width: 250px
+/*================*/
+.mrgeneral
+  background-color: $limoncito
+  .mrlogo
+    width: 250px
+.renarteinfo
+  width: 100%
+  .con
+    width: 100%
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    flex-wrap: wrap
+    min-height: 450px
+    box-sizing: border-box
+    align-items: center
+    .interiores
+      width: 25%
+      min-height: 250px !important
+      text-align: center
+      padding: 20px
+      box-sizing: border-box
+      @media screen and (max-width: 740px)
+        width: 100%
+      .title
+        height: 80px !important
+        display: block
+      a.title
+        font-size: 1.1em
+        text-align: center
+        margin: 0px auto 10px auto !important
+        color: $m-grisoscuro
+      .thumb
+        width: 100%
+        img
+          width: 100%
+          height: auto
+          display: block
+/*--------------*/
+.renartesingle

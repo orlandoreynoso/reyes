@@ -1,0 +1,71 @@
+#totop
+  display: none
+  text-decoration: none
+  position: fixed
+  bottom: 40px
+  margin-left: 640px
+  overflow: hidden
+  width: 43px
+  height: 28px
+  border: none
+  text-indent: -999px
+  z-index: 20
+  background: url("../images/totop.png") no-repeat left 0
+  transition: 0s ease
+  -o-transition: 0s ease
+  -webkit-transition: 0s ease
+  &:hover
+    outline: none
+    background-position: right 0
+footer
+  width: 100%
+  background-color: $limoncito
+  .pie
+    background-color: $limoncito
+    min-height: 150px
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-between
+    width: 100%
+    box-sizing: border-box
+    padding-top: 30px
+    padding-bottom: 30px
+    .footer-left
+      width: 49%
+      @media screen and ( max-width: 640px )
+        width: 100%
+        text-align: center
+      p
+        font-family: $froboto
+        margin: 0px
+        padding: 0px
+        color: $sd-blanco
+        font-size: 0.9em
+      a
+        color: $sd-limon
+        text-decoration: none
+        &:hover
+          color: $sd-limon-oscuro
+          transition: 0.5s ease
+    .search
+      width: 100%
+      padding-top: 20px
+    .footer-right
+      width: 49%
+      color: $sd-blanco
+      float: right
+      @media screen and ( max-width: 640px )
+        width: 100%
+        text-align: center
+        margin-top: 12px
+    .group
+      width: 100%
+      text-align: center
+      color: $blanco
+      line-height: 1.5em
+      font-family: 'Economica-Bold'
+      text-shadow: 1px 2px 1px #000
+      font-size: 1.2em
+      background-color: red
+/*=================================*/
