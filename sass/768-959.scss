@@ -1,0 +1,157 @@
+/* ---------------------------------------------------------------------- */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+/*	
+#contenedor #contenedor02{
+	max-width:959px;
+	background-image: none;
+	background-color: green;
+	padding-bottom: 10px;	
+}
+
+#contenedor #contenedor04{
+	background-color: red;
+	padding-bottom: 10px;
+}
+*/
+
+
+#contenedor #contenedor04 #h-ls #d-servicios{
+	width:67%;
+	clear:both;
+	padding:0px 7px 0px 0px;
+}
+
+#contenedor #contenedor02 #c-ls #d-servicios nav,
+#h-ls #d-servicios nav{
+	max-width:767px;
+}
+
+#c-ls #d-servicios nav ul{ 
+	
+}
+
+#contenedor #contenedor02 #c-ls #d-servicios nav ul li,
+#contenedor #contenedor04 #h-ls #d-servicios nav ul li{
+	margin-bottom: 4px;
+	padding: 7px;
+}
+
+#contenedor #contenedor02 #c-ls #d-servicios nav ul li a,
+{
+	padding: 4px;
+}
+
+#contenedor #contenedor04 #h-ls #d-servicios nav ul li a{
+	padding: 4px;
+	font-size:1.7em;
+}
+
+
+.post{
+	width:100%;
+}	
+/*
+#m-body .grid{
+
+
+	#contenedor #contenedor04 #h-ls #d-servicios{
+	width:67%;
+	clear:both;
+	padding:0px 7px 0px 0px;
+}
+
+#contenedor #contenedor02 #c-ls #d-servicios nav,
+#h-ls #d-servicios nav{
+	max-width:767px;
+}
+
+#c-ls #d-servicios nav ul{ 
+	
+}
+
+#contenedor #contenedor02 #c-ls #d-servicios nav ul li,
+#contenedor #contenedor04 #h-ls #d-servicios nav ul li{
+	margin-bottom: 4px;
+	padding: 7px;
+}
+
+#contenedor #contenedor02 #c-ls #d-servicios nav ul li a,
+{
+	padding: 4px;
+}
+
+#contenedor #contenedor04 #h-ls #d-servicios nav ul li a{
+	padding: 4px;
+	font-size:1.2em;
+}
+
+	max-width: 959px;
+	margin: 0px auto;
+}
+
+#ls{
+	display:flex;
+	box-sizing:border-box;
+	width: 100%;
+}
+
+#ls #m-logo{
+	width: 25%;
+	margin:0px solid;
+}
+
+#ls #m-logo img{
+	width: 150px;
+	height: auto;
+}
+
+#ls #m-slide{
+	width: 75%;
+}
+
+.playing #listens{
+	margin: 7px auto 7px auto;
+}
+
+.playing .cc_streaminfo{
+	color: #010133;
+	clear:both;
+	display:block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#m-body #contenido{
+	width:100%;
+}
+
+#m-body #contenido #m-iz{
+	width:100%;
+	order:2;
+}
+
+#m-body #contenido #m-iz .facebook{
+	width:48%;
+	vertical-align: top;
+	padding: 0px 10px 0px 0px;
+	margin: 0px;
+
+}
+
+#m-body #contenido #m-iz .friends{
+	width: 48%;
+	vertical-align: top;
+	padding: 0px 0px 0px 10px;
+	margin: 0px;	
+}
+
+#m-body #contenido #m-der{
+	width:100%;	
+	order:1;
+}
+*/
+
+
+
+}

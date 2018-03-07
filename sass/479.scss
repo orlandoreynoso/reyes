@@ -1,0 +1,168 @@
+/* ---------------------------------------------------------------------- */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+#contenedor #contenedor02{
+	max-width:479px;
+	min-height: 350px;
+/*	background-image: none;*/
+	width: 100%;
+	padding: 0px;
+	background-position: center, center;
+/*	background-size: auto, cover;
+	background-repeat: repeat , no-repeat;
+	background-attachment: fixed; */
+	background-size: auto, cover;
+	margin: 0px;
+}
+
+#contenedor #contenedor04{
+	max-width:479px;
+	min-height: 350px;
+}
+
+#contenedor #contenedor02 #c-ls{
+	width: 100%;
+	max-width:479px;
+	padding: 0px;
+	margin: 0px;
+	align-items: center;
+	align-content:center;
+	justify-content: center;	
+}
+
+#contenedor #contenedor04 #h-ls{
+	width: 100%;
+	max-width:479px;
+	padding: 0px;
+	margin: 0px;
+	align-items: center;
+	align-content:center;
+	justify-content: center;
+}
+
+#contenedor #contenedor02 #c-ls  #logo
+{
+	width: 50%;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+#contenedor #contenedor04 #h-ls #h-logo{
+	width: 50% !important;
+	padding: 10px;
+	margin: 0px auto;	
+}
+
+#contenedor #contenedor02 #c-ls #logo img,
+#contenedor #contenedor04 #h-ls #h-logo img{
+	width: 100%;
+}
+
+#contenedor #contenedor02 #c-ls #slogan,
+#contenedor #contenedor04 #h-ls #slogan{
+  width: 50%;
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#contenedor #contenedor02 #c-ls #slogan p,
+#contenedor #contenedor02 #c-ls #slogan h1,
+#contenedor #contenedor04 #h-ls #slogan p,
+#contenedor #contenedor04 #h-ls #slogan h1{
+  font-size: 2.1em;
+  padding: 3px;
+  margin: 0px;
+}
+
+#contenedor #contenedor04 #h-ls #d-servicios{
+	width: 100% !important;
+	padding: 10px;
+	border-top: 2px solid white;
+	clear: both;
+}
+
+#contenedor #contenedor02 #c-ls #d-servicios{
+	width:100%;
+	clear:both;
+	border-top: 2px solid white;
+}
+
+#contenedor #contenedor02 #c-ls #d-servicios nav,
+#h-ls #d-servicios nav{
+	max-width:479px;
+}
+
+#c-ls #d-servicios nav ul{ 
+	
+}
+
+#contenedor #contenedor02 #c-ls #d-servicios nav ul li,
+#h-ls #d-servicios nav ul li{
+	margin-bottom: 4px;
+	padding: 7px;
+}
+
+#contenedor #contenedor02 #c-ls #d-servicios nav ul li a,
+#h-ls #d-servicios nav ul li a{
+	padding: 4px;
+}
+
+/*====================================*/
+/*
+#contenedor04 #h-ls  #h-logo{
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0px auto;
+}
+
+#contenedor04 #h-ls nav{
+  width: 100%;
+  padding: 10px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+#contenedor04 #h-ls nav #cuadro_menu ul{
+
+}
+
+#contenedor04 #h-ls nav #cuadro_menu ul li{
+	margin:4px;
+}*/
+
+#m-entradas-home .post{
+	width:100%;
+}
+
+/*
+#m-body .grid{
+	max-width: 479px;
+	margin: 0px auto;
+}
+
+#m-header #c-ls{
+	width: 100%;
+	@include sombra();
+	margin-bottom: 7px;
+	padding-bottom: 7px;
+}
+
+#m-header #c-buscar{
+	width: 100%;	
+}
+
+#m-header #c-ls #slogan p{
+  font-size: 1.1em;
+}
+
+#m-header #c-ls #slogan h1{
+  font-size: 1.5em;
+}
+*/
+
+}

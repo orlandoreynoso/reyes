@@ -1,0 +1,1 @@
+<iframe class="widfacebook" style="border: none; overflow: hidden;" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FGuatemala-City-Guatemala%2FMetanoia-Radio%2F111121272252959&amp;width=300&amp;colorscheme=light&amp;connections=0&amp;stream=true&amp;header=true&amp;height=300" frameborder="0" scrolling="no"></iframe>

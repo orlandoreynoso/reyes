@@ -1,0 +1,70 @@
+/*#recientes{
+	padding: 5px;
+	display:flex;
+	flex-flow: row wrap;
+	box-sizing:border-box;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin-top:4px;
+}
+
+
+#recientes .list{
+    padding: 2px;
+    margin-bottom: 5px;
+    padding-bottom: 9px;
+    overflow: hidden;
+    border-bottom: 1px solid #009FFF;
+    text-transform: lowercase;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+#recientes .title{
+	color: $azul;
+	line-height: 1.3em;
+	font-size: 1.1em;
+	text-decoration:none;
+	text-transform:lowercase;
+	margin-left: 10px;
+}
+
+#recientes .title:hover{
+	color:$verde;
+	@include transicion_a();
+}
+
+#recientes .title:first-letter{
+	text-transform: uppercase;
+}
+
+#recientes .thumb{
+	width: 32%;
+	
+}
+
+#recientes .thumb img{
+	height:auto;
+	display:inline-block;
+	float:left;
+	margin-right:7px;
+	@include sombra();
+	@include borde(2px,$blanco);
+	width: 90%;
+
+}
+
+#recientes .thumb img:hover{
+	@include opacidad(50);
+	@include transicion_a();
+	@include sombra_hover();
+}
+
+*/
